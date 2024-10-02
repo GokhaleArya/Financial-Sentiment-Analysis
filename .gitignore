@@ -1,4 +1,35 @@
 # Byte-compiled / optimized / DLL files
+
+# Ignore model files
+*.safetensors
+*.h5
+*.pth
+*.pt
+
+# Ignore dataset files
+*.csv
+*.xlsx
+*.json
+
+# Ignore virtual environment
+.venv/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore environment files
+.env
+
+# Ignore VS Code settings (optional)
+.vscode/
+
 __pycache__/
 *.py[cod]
 *$py.class
